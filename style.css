@@ -8,3 +8,31 @@ body{
     background-color: #117050;
     height: 10px;
 }
+
+.conteiner{
+    
+    max-width: 1140px;
+    margin: auto;
+}
+
+.header-area{
+
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.header-left img{
+    width: 64px;
+    height: 64px;
+    margin-top: 15px;
+
+}
+
+.header-search input{
+    font-size: 16px;
+    padding: 7px 10px;
+    border: 1px solid #999999;
+    outline: 0;
+}
