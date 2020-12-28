@@ -275,3 +275,55 @@ h2{
     color: #ffffff;
     background-color: #454545;
 }
+
+.area4{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+.area4--content{
+
+    padding: 200 px 80px;
+    
+
+}
+
+.area4--title{
+    margin-left: 30px;
+}
+
+
+
+.area4--text{
+    margin-bottom: 50px;
+    line-height: 30px;
+    margin-left: 30px;
+}
+
+.area4--img1{
+
+    height: 600px;
+    background-image: url(../images/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.button--area4{
+
+    display: inline-block;
+    border: 2px solid #454545;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: #454545;
+    text-decoration: none;
+    margin-left: 250px;
+    
+}
+
+.button--area4:hover{
+    color: #ffffff;
+    background-color: #454545;
+}
