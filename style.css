@@ -43,9 +43,25 @@ h2{
     font-weight: bold;
     color: #117050;
     line-height: 45px;
-    margin-bottom: 0;
+    margin: 20px 0;
     
 
+}
+
+.button{
+
+    display: inline-block;
+    border: 2px solid #454545;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: #454545;
+    text-decoration: none;
+    
+}
+
+.button:hover{
+    color: #ffffff;
+    background-color: #454545;
 }
 
 .header--area{
@@ -137,6 +153,16 @@ h2{
 .area1-content{
 
     padding: 80px;
+}
+
+.area1--frase{
+    margin-bottom: 30px;
+
+}
+
+.area1--text{
+    margin-bottom: 50px;
+    line-height: 30px;
 }
 
 .area1--img1{
